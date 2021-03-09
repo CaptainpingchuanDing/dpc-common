@@ -1,0 +1,18 @@
+    [chest_up_down_difference_prefix][assignment][chest_up_down_difference_num]
+    [chest_up_down_difference_prefix][assignment][chest_up_down_difference_num][chest_up_down_difference_unit]
+
+    [chest_up_down_difference_prefix][assignment][chest_up_down_difference_num][op_of][chest_up_down_difference_num]
+    [chest_up_down_difference_prefix][assignment][chest_up_down_difference_num][chest_up_down_difference_unit][op_of][chest_up_down_difference_num]
+    [chest_up_down_difference_prefix][assignment][chest_up_down_difference_num][op_of][chest_up_down_difference_num][chest_up_down_difference_unit]
+    [chest_up_down_difference_prefix][assignment][chest_up_down_difference_num][chest_up_down_difference_unit][op_of][chest_up_down_difference_num][chest_up_down_difference_unit]
+
+
+    #[chest_up_down_difference_num][chest_up_down_difference_unit]
+
+    [assignment][chest_up_down_difference_num][be_of][chest_up_down_difference_prefix]
+    [assignment][chest_up_down_difference_num][chest_up_down_difference_unit][be_of][chest_up_down_difference_prefix]
+
+    [assignment][chest_up_down_difference_num][op_of][chest_up_down_difference_num][be_of][chest_up_down_difference_prefix]
+    [assignment][chest_up_down_difference_num][chest_up_down_difference_unit][op_of][chest_up_down_difference_num][be_of][chest_up_down_difference_prefix]
+    [assignment][chest_up_down_difference_num][op_of][chest_up_down_difference_num][chest_up_down_difference_unit][be_of][chest_up_down_difference_prefix]
+    [assignment][chest_up_down_difference_num][chest_up_down_difference_unit][op_of][chest_up_down_difference_num][chest_up_down_difference_unit][be_of][chest_up_down_difference_prefix]

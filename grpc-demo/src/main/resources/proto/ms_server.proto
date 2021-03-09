@@ -1,0 +1,22 @@
+syntax = "proto3";
+option java_package = "pers.captain.gprc";
+option java_multiple_files = true;
+
+//ms的server
+service MSService {
+
+  // 通知ms注销jsf，并且结束程序
+  rpc notify (MsRequest) returns (MsResponse) {}
+}
+
+
+message MsRequest {
+  string alias = 1; // 生效模型的jsf
+  string data = 2; // 预留字段
+}
+
+// 部署/生效 响应消息定义
+message MsResponse {
+  int32 status = 1;// 1表示操作成功，0表示失败
+  string message = 2;
+}
