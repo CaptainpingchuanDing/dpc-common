@@ -21,7 +21,7 @@ public class Client {
         try {
             long start = System.currentTimeMillis();
             MsResponse msNoticeResponse = serviceBlockingStub.
-                    withDeadlineAfter(1000, TimeUnit.MILLISECONDS)
+                    withDeadlineAfter(10, TimeUnit.MILLISECONDS)
                     .notify(MsRequest.newBuilder().setAlias("testAlias").build());
             System.out.println("message:" + msNoticeResponse.getMessage());
             long end = System.currentTimeMillis();

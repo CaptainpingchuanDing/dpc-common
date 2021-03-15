@@ -50,7 +50,7 @@ public class DeleteAttrESDataEveryDayUDF extends GenericUDF {
             if(StringUtils.isNotBlank(id)){
                 Map<String, String> condition = new HashMap<>();
                 condition.put("primary_key", id);
-                kbqaService.deleteAttrData(condition);
+//                kbqaService.deleteAttrData(condition);
             }
         } catch (Exception e) {
             result = String.format("delete data id={} met error", id);
