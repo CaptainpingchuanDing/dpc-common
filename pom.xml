@@ -18,6 +18,7 @@
         <module>other</module>
         <module>grpc-demo</module>
         <module>grpc-client</module>
+        <module>thread-study</module>
     </modules>
 
     <parent>
