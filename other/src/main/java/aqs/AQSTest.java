@@ -2,7 +2,7 @@ package aqs;
 
 import java.util.concurrent.CountDownLatch;
 
-public class ADSTest {
+public class AQSTest {
 
 
     public static void main(String[] args) {
